@@ -75,7 +75,10 @@ footer {
   
   .menu-item {
     width: 90%;
-    
+  }
+  
+  .image {
+    height: 150px;
   }
   
   .menu-item:nth-child(2) {
