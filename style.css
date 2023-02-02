@@ -3,3 +3,63 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+header {
+  background-color: #FF9A4B;
+  height: 50px;
+}
+
+main {
+  width: 960px;
+  padding: 50px 0;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.menu-item {
+  background-color: #EEEEEE;
+  width: 300px;
+}
+
+.step {
+  background-color: orange;
+  color: white;
+position: absolute;
+}
+
+.menu {
+  padding: 10px;
+}
+
+.image {
+  height: 150px;
+  background-size: cover;
+  background-position: bottom;
+}
+
+.pc {
+ background-image: url(img/flow01.png);
+}
+
+.room {
+ background-image: url(img/flow02.png);
+ 
+}
+
+.human {
+  background-image: url(img/flow03.png)
+}
+
+.menu-item:nth-child(2) {
+  margin: 0 30px;
+}
+
+h3 {
+  padding: 15px 0 5px 0;
+}
+
+footer {
+  background-color: #AAAAAA;
+  height: 50px;
+}
